@@ -28,7 +28,7 @@ public class Task1_2 {
         strArray[0] = "りんご"; 
         strArray[1] = "もも";
         strArray[2] = "ぶどう";
-        
+
         // ④ ③で作成した配列の2番目の要素を出力しなさい。
         System.out.println(strArray[1]);
         /* ⑤下記の処理について、何をしているのかコメントを記入してください。
@@ -37,7 +37,7 @@ public class Task1_2 {
         int[] intArray = { 10, 20, 30, 40, 50 };
 
         // ⑥下記の処理について、何をしているのかコメントを記入してください。
-        // 配列intArrayの添字が1と4の要素の値を表示している
+        // 配列intArrayの要素1番目の20と4番目の50の値を足した値を表示している
         System.out.println(intArray[1] + intArray[4]);
 
     }
