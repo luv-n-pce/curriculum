@@ -43,9 +43,6 @@ public class Study {
         System.out.println(calendar.get(Calendar.DATE));
 
 
-
-
-
         // うるう年判定
         printLeapYear(calendar.get(Calendar.YEAR));
     }
