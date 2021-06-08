@@ -25,7 +25,7 @@ public class EmployeeService {
  /** ・ユーザー名 */
  private static final String USER = "postgres";
  /** ・パスワード */
- private static final String PASS = "postgres";
+ private static final String PASS = "mavis0313";
  /** ・タイムフォーマット */
  private static final String TIME_FORMAT = "yyyy/MM/dd HH:mm:ss";
  
@@ -90,9 +90,9 @@ public class EmployeeService {
  
   // 問⑧ EmployeeBeanに取得したデータを入れてください。
  employeeDate = new EmployeeBean();
- employeeDate.setName("tmpName");
- employeeDate.setComment("tmpComment");
- employeeDate.setLogin_Time("tmpLoginTime");
+ employeeDate.setName(tmpName);
+ employeeDate.setComment(tmpComment);
+ employeeDate.setLogin_Time(tmpLoginTime);
  }
  
   // forName()で例外発生
